@@ -14,3 +14,5 @@ firstName =input("What is your first name: ")
 lastName =input ("What is your last name:")
 
 print("\nWelcome to Cash-R-Us",firstName,lastName + ",we will now set up a security PIN on your account.\n")
+
+print("\nWould you like to make a transaction through our Automated Teller Machine")
