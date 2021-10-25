@@ -15,4 +15,19 @@ lastName =input ("What is your last name:")
 
 print("\nWelcome to Cash-R-Us",firstName,lastName + ",we will now set up a security PIN on your account.\n")
 
+# set up a PIN - personal Identification number
+PIN = input("please choose a 4-digit personal Identification Number: ")
+
+print("\nThank you",firstName + ", we see that you set your pin to",2255)
+
 print("\nWould you like to make a transaction through our Automated Teller Machine")
+atm = input("yes or no: ").lower()
+if atm == "yes":
+    print("\n*******************************************\n")
+
+
+
+
+
+else:
+    print("\nHave a wonderful day",firstName,lastName,",please come back and visit soon,")
